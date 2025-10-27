@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bakery Shop - Pricing</title>
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+  /* Reset styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  /* Header styling similar to your site */
+  header {
+    position: relative;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+  }
+
+  nav {
+    margin-left: 180px;
+    display: flex;
+    gap: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #bbb;
+    border-radius: 4px;
+  }
+
+  /* Main content styles */
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Pricing table styles */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #222;
+}
+
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
+
+footer a {
+  font-size: 30px;
+  color: #000;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #555;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="logo.png" alt="Logo" class="logo" style="width: 90px; height: auto;" />
+</header>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="services.html">SERVICES</a>
+    <a href="html.gallery.html">GALLERY</a>
+    <a href="html.about us.html">ABOUT US</a>
+    <a href="html.contact us.html">CONTACT</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <h1>Our Pricing</h1>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Scones</td>
+          <td>Freshly baked scones, per kg</td>
+          <td>P15.95/KG</td>
+        </tr>
+        <tr>
+          <td>Chocolate Cake</td>
+          <td>Rich chocolate cake, per piece</td>
+          <td>P19.95</td>
+        </tr>
+        <tr>
+          <td>Vanilla Cake</td>
+          <td>Delicious vanilla cake, per piece</td>
+          <td>P15.95</td>
+        </tr>
+        <tr>
+          <td>Loaf</td>
+          <td>Fresh bread loaf, each</td>
+          <td>P7.95</td>
+        </tr>
+        <tr>
+          <td>Muffins</td>
+          <td>Assorted muffins, per dozen</td>
+          <td>P50.00</td>
+        </tr>
+        <tr>
+          <td>Cookies</td>
+          <td>Assorted cookies, per dozen</td>
+          <td>P40.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-whatsapp"></i></a>
+  <a href="#"><i class="fab fa-tiktok"></i></a>
+</footer>
+
+</body>
+</html>

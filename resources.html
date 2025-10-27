@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bakery Resources</title>
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+  /* Reset styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  /* Header Styling */
+  header {
+    position: relative;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* Logo positioned at top left with your image */
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px; /* adjust width as needed */
+    height: auto;
+  }
+
+  /* Navigation (aligned to right) */
+  nav {
+    margin-left: 180px; /* space from logo, adjust as needed */
+    display: flex;
+    gap: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+
+  /* Highlight style for active button */
+  nav a.active {
+    background-color: #555;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  nav a:hover {
+    background-color: #bbb;
+    border-radius: 4px;
+  }
+
+  /* Main content styling */
+  main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* Resources Section */
+  .resources {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .resources h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  .resources p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  /* Resource cards grid */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  /* Individual resource card */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: box-shadow 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .card a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .card a:hover {
+    background-color: #555;
+  }
+
+  /* Footer with social icons fixed at bottom */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+  }
+
+  footer a {
+    font-size: 30px; /* larger icons */
+    color: #000;
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="logo.png" alt="Logo" class="logo" />
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">SERVICES</a>
+    <a href="#" class="active">RESOURCES</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">CONTACT</a>
+    <a href="#">SEARCH</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <!-- Resources Section -->
+  <section class="resources">
+    <h2>Bakery Resources & Tips</h2>
+    <p>Explore our collection of baking tips, recipes, and tutorials to help you create delicious baked goods at home.</p>
+    <div class="cards">
+      <!-- Resource Card 1 -->
+      <div class="card">
+        <h3>Baking Tips</h3>
+        <p>Learn essential tips for perfect baking every time.</p>
+        <a href="#">Read More</a>
+      </div>
+      <!-- Resource Card 2 -->
+      <div class="card">
+        <h3>Chocolate Cake Recipe</h3>
+        <p>Step-by-step guide to baking a rich chocolate cake.</p>
+        <a href="#">View Recipe</a>
+      </div>
+      <!-- Resource Card 3 -->
+      <div class="card">
+        <h3>Decorating Tutorials</h3>
+        <p>Discover decorating techniques to make your cakes stand out.</p>
+        <a href="#">Watch Tutorials</a>
+      </div>
+      <!-- Resource Card 4 -->
+      <div class="card">
+        <h3>Healthy Baking</h3>
+        <p>Ideas for healthier baked goods without sacrificing flavor.</p>
+        <a href="#">Explore</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Social Icons fixed at bottom -->
+<footer>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-whatsapp"></i></a>
+  <a href="#"><i class="fab fa-tiktok"></i></a>
+</footer>
+
+</body>
+</html>

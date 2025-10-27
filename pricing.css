@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bakery Shop - Pricing</title>
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="logo.png" alt="Logo" class="logo" />
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">SERVICES</a>
+    <a href="#">GALLERY</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">CONTACT</a>
+    <a href="#" class="active">PRICING</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <h1>Our Pricing</h1>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Scones</td>
+          <td>Freshly baked scones, per kg</td>
+          <td>P15.95/KG</td>
+        </tr>
+        <tr>
+          <td>Chocolate Cake</td>
+          <td>Rich chocolate cake, per piece</td>
+          <td>P19.95</td>
+        </tr>
+        <tr>
+          <td>Vanilla Cake</td>
+          <td>Delicious vanilla cake, per piece</td>
+          <td>P15.95</td>
+        </tr>
+        <tr>
+          <td>Loaf</td>
+          <td>Fresh bread loaf, each</td>
+          <td>P7.95</td>
+        </tr>
+        <tr>
+          <td>Muffins</td>
+          <td>Assorted muffins, per dozen</td>
+          <td>P50.00</td>
+        </tr>
+        <tr>
+          <td>Cookies</td>
+          <td>Assorted cookies, per dozen</td>
+          <td>P40.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-whatsapp"></i></a>
+  <a href="#"><i class="fab fa-tiktok"></i></a>
+</footer>
+
+</body>
+</html>
